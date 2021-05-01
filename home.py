@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np # linear algebra
-from lime import lime_image
+#from lime import lime_image
 from bokeh.colors import color
 from sklearn.metrics import roc_curve, roc_auc_score, precision_score, recall_score, f1_score, accuracy_score, confusion_matrix
 from bokeh.plotting import figure
@@ -121,8 +121,8 @@ def generationModel(X_train):
     model.add(Activation("sigmoid"))
     metrics = [
       'accuracy',
-      tf.keras.metrics.Precision(name='precision'),
-      tf.keras.metrics.Recall(name='recall'),
+      #tf.keras.metrics.Precision(name='precision'),
+      #tf.keras.metrics.Recall(name='recall'),
     ]
 
 def lancementModel(model,metrics,X_train, Y_train,X_test,Y_test):
