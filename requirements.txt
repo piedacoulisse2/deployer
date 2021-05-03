@@ -6,3 +6,6 @@ matplotlib
 bokeh
 scikit-learn
 scikit-image
+ffmpeg
+libsm6
+libxext6
