@@ -6,4 +6,4 @@ bokeh
 scikit-learn
 scikit-image
 opencv-python--headless
-libgl1-mesa-glx
+libgl1
