@@ -1,11 +1,9 @@
 streamlit==0.80.0
 tensorflow-cpu
 keras
-opencv-python
 matplotlib
 bokeh
 scikit-learn
 scikit-image
-ffmpeg
-libsm6
-libxext6
+opencv-python--headless
+libgl1-mesa-glx
